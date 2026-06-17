@@ -23,7 +23,7 @@
         <el-collapse-item 
           v-for="pelajaran in katalogData" 
           :key="pelajaran.id" 
-          :title="`${pelajaran.nama} - ${pelajaran.tingkat}`" 
+          :title="pelajaran.nama" 
           :name="pelajaran.id"
         >
           <div class="p-4 bg-gray-50 rounded-lg">
